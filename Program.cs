@@ -78,11 +78,8 @@ namespace LTTTask
                 do
                 {
                     Console.WriteLine("\n\t\t--------- Student Details ---------");
-                    Console.WriteLine("\n\t1.Display all Students details");
-                    Console.WriteLine("\t2.Show total admission fee with GST");
-                    Console.WriteLine("\t3.Search student by course");
-                    Console.WriteLine("\t4.EXIT");
-                    Console.Write("\nEnter choice: ");
+                    Console.WriteLine("\n\t1.Display all Students details\n\t2.Show total admission fee with GST\n\t3.Search student by course\n\t4.EXIT");
+                    Console.Write("\nEnter your choice: ");
                     choice = int.Parse(Console.ReadLine());
                     switch (choice)
                     {
